@@ -1,0 +1,26 @@
+ENTITY instructionMemory is
+PORT (
+			 addr: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+			 memoryRead, Clock: IN STD_LOGIC; 
+			 readData: OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+		);
+END instructionMemory;
+
+ARCHITECTURE behavior OF instructionMemory IS
+	TYPE memory IS ARRAY (0 TO 3) OF STD_LOGIC(7 DOWNTO 0);
+		CONSTANT cpu_memory : memory := (
+			0 => "0000"-- SUB 
+			1 => "Bits"-- ADD
+			2 => "Bits"-- JUMP
+			3 => "Bits"-- BRANCH
+				BEGIN
+					PROCESS (addr)
+						CASE addr IS
+							WHEN "bits" => readData <= cpu_memory(0);
+							WHEN "bits" => readData <= cpu_memory(1);
+							WHEN "bits" => readData <= cpu_memory(2);
+							WHEN "bits" => readData <= cpu_memory(3);
+						END CASE;
+					END PROCESS;
+		END ARCHITECTURE;
+		);

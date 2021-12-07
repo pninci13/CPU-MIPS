@@ -1,0 +1,21 @@
+ENTITY adder IS
+ PORT (
+	 cin, a, b : IN STD_LOGIC;
+	 s, cout : OUT STD_LOGIC
+ );
+END ENTITY;
+
+ARCHITECTURE BEHAVIOR OF adder IS
+	
+	signal m0, m1, m2 : STD_LOGIC;
+
+BEGIN
+	
+	m0 <= cin xor b;	
+	m1 <= m0 and  a;
+	m2 <=  b and cin;
+	
+	s <= a xor m0;
+	cout <= m1 or m2;
+	
+END ARCHITECTURE;

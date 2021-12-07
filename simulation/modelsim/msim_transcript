@@ -1,0 +1,290 @@
+# ERROR: No extended dataflow license exists
+# do mipsProcessor_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/gazoni/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/Multiplexer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:22 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/Multiplexer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Mux2x1
+# -- Compiling architecture Behavior of Mux2x1
+# End time: 11:32:22 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/8bitRegister.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:22 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/8bitRegister.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Reg8
+# -- Compiling architecture Behavior of Reg8
+# End time: 11:32:22 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/RegisterFile.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:22 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/RegisterFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RegisterFile
+# -- Compiling architecture Behavior of RegisterFile
+# End time: 11:32:22 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/PC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:22 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity PC
+# -- Compiling architecture Behavior of PC
+# End time: 11:32:22 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/Instruction Register.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:22 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/Instruction Register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity InstructionRegister
+# -- Compiling architecture Behavior of InstructionRegister
+# End time: 11:32:22 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:22 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_ARCH of ALU
+# End time: 11:32:23 on Nov 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:23 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity InstructionMemory
+# -- Compiling architecture behavior of InstructionMemory
+# End time: 11:32:23 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:23 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavior of ControlUnit
+# End time: 11:32:23 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gazoni/Downloads/Projeto/CPU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:32:23 on Nov 29,2021
+# vcom -reportprogress 300 -93 -work work /home/gazoni/Downloads/Projeto/CPU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity CPU
+# -- Compiling architecture Behavior of CPU
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity Mux2x1
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(60): Cannot associate port "PCAddr" of mode OUT with port "PCAddr" of mode BUFFER.
+# -- Loading entity Reg8
+# -- Loading entity RegisterFile
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(70): Cannot associate port "OutputReg1" of mode OUT with port "OutputReg1" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(70): Cannot associate port "OutputReg2" of mode OUT with port "OutputReg2" of mode BUFFER.
+# -- Loading entity PC
+# -- Loading entity InstructionRegister
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(74): Cannot associate port "Opcode" of mode OUT with port "Opcode" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(74): Cannot associate port "Instruction54" of mode OUT with port "ReadReg1" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(74): Cannot associate port "Instruction32" of mode OUT with port "ReadReg2" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(74): Cannot associate port "Instruction10" of mode OUT with port "WriteRegAddr" of mode BUFFER.
+# -- Loading entity ALU
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(76): Cannot associate port "ZERO" of mode OUT with port "Zero" of mode BUFFER.
+# -- Loading package NUMERIC_STD
+# -- Loading entity InstructionMemory
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(78): Cannot associate port "ReadData" of mode OUT with port "ReadData" of mode BUFFER.
+# -- Loading entity ControlUnit
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "PCWriteCond" of mode OUT with port "PCWriteCond" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "PCInc" of mode OUT with port "PCInc" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "MemRead" of mode OUT with port "MemRead" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "IRWrite" of mode OUT with port "IRWrite" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "WriteEND" of mode OUT with port "WriteEND" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "ALUop" of mode OUT with port "ALUop" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "PCSource" of mode OUT with port "PCSource" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "RegWrite" of mode OUT with port "RegWrite" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "WriteAB" of mode OUT with port "WriteAB" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "WriteALUout" of mode OUT with port "WriteALUout" of mode BUFFER.
+# ** Warning: /home/gazoni/Downloads/Projeto/CPU.vhd(80): Cannot associate port "PCWriteJUMP" of mode OUT with port "PCWriteJUMP" of mode BUFFER.
+# End time: 11:32:23 on Nov 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# 
+vsim work.cpu
+# vsim work.cpu 
+# Start time: 11:32:32 on Nov 29,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(behavior)
+# Loading work.mux2x1(behavior)
+# Loading work.reg8(behavior)
+# Loading work.registerfile(behavior)
+# Loading work.pc(behavior)
+# Loading work.instructionregister(behavior)
+# Loading work.alu(alu_arch)
+# Loading work.instructionmemory(behavior)
+# Loading work.controlunit(behavior)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 25ns -dutycycle 50 -starttime 0ns -endtime 740ns sim:/cpu/Clock
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+add wave -position end  sim:/cpu/IRWrite
+add wave -position end  sim:/cpu/PCAddr
+add wave -position end  sim:/cpu/PCOutput
+add wave -position end  sim:/cpu/MemRead
+add wave -position end  sim:/cpu/ReadData
+add wave -position end  sim:/cpu/OutputEND
+add wave -position end  sim:/cpu/Opcode
+add wave -position end  sim:/cpu/ReadReg1
+add wave -position end  sim:/cpu/ReadReg2
+add wave -position end  sim:/cpu/WriteRegAddr
+add wave -position end  sim:/cpu/WriteReg
+add wave -position end  sim:/cpu/OutputA
+add wave -position end  sim:/cpu/OutputB
+add wave -position end  sim:/cpu/OutputALUout
+add wave -position end  sim:/cpu/RegWrite
+add wave -position end  sim:/cpu/Zero
+add wave -position end  sim:/cpu/PCWriteCond
+add wave -position end  sim:/cpu/PCWriteJUMP
+add wave -position end  sim:/cpu/JUMPAddress
+add wave -position end  sim:/cpu/RegFile/Register0/OutputData
+add wave -position end  sim:/cpu/RegFile/Register1/OutputData
+add wave -position end  sim:/cpu/RegFile/Register2/OutputData
+add wave -position end  sim:/cpu/RegFile/Register3/OutputData
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/ALU
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 37500 ps  Iteration: 0  Instance: /cpu/RegFile
+# End time: 11:43:50 on Nov 29,2021, Elapsed time: 0:11:18
+# Errors: 0, Warnings: 41

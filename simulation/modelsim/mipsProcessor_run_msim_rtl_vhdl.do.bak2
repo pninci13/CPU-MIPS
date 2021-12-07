@@ -1,0 +1,17 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/Multiplexer.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/8bitRegister.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/RegisterFile.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/PC.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/Instruction Register.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/ALU.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/Memory.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/ControlUnit.vhd}
+vcom -93 -work work {E:/intelFPGA_lite/20.1/Projeto/CPU.vhd}
+

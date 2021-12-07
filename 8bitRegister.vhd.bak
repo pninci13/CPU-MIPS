@@ -1,0 +1,20 @@
+ENTITY r8s IS
+	PORT 
+	(
+		 S_WRITE, CLOCK  : IN BIT; -- Signal
+		 I       : IN BIT_VECTOR (7 DOWNTO 0); -- Input Data 
+		 O       : OUT BIT_VECTOR (7 DOWNTO 0) -- Output Data
+	 );
+END ENTITY;
+
+ARCHITECTURE r8AB_arch OF r8AB IS
+	SIGNAL D : BIT_VECTOR (7 DOWNTO 0);
+BEGIN
+	PROCESS (CLOCK)
+	BEGIN
+		IF RISING_EDGE(CLOCK) THEN 
+			D <= I WHEN (S_WRITE = '1');
+			O <= D;
+		END IF;
+	END PROCESS;
+END ARCHITECTURE;
